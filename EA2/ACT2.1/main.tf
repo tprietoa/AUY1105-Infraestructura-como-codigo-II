@@ -24,6 +24,6 @@ module "s3" {
   source = "./s3_module"
 
   # Aquí pon los valores que tú quieras
-  bucket_prefix = "mi-nombre-proyecto"
+  bucket_prefix = "tp-proyecto"
   bucket_suffix = "pro-2026"
 } 
