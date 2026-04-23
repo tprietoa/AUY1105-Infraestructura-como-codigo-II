@@ -19,3 +19,11 @@ module "ec2" {
   vpc_id        = module.vpc.vpc_id
   instance_name = "MiInstancia"
 }
+
+module "s3" {
+  source = "./s3_module"
+
+  # Aquí pon los valores que tú quieras
+  bucket_prefix = "mi-nombre-proyecto"
+  bucket_suffix = "pro-2026"
+} 
